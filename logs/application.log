@@ -1,0 +1,215 @@
+2024-02-24 12:36:02,039 [main] INFO  c.e.t.TestActuatorApplication - Starting TestActuatorApplication using Java 17.0.5 with PID 12044 (C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator\target\classes started by rahmani in C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator)
+2024-02-24 12:36:02,040 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:02,043 [main] INFO  c.e.t.TestActuatorApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-24 12:36:02,043 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:03,211 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-24 12:36:03,212 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:03,243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2024-02-24 12:36:03,243 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2024-02-24 12:36:04,009 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,019 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:36:04,019 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,021 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 12:36:04,021 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,021 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-24 12:36:04,021 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,082 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 12:36:04,082 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,082 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1976 ms
+2024-02-24 12:36:04,082 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,353 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-24 12:36:04,354 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,550 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:3b4832b7-95ef-4094-aea8-d4767933ac9d user=SA
+2024-02-24 12:36:04,550 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-24 12:36:04,552 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,617 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-24 12:36:04,617 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,674 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-02-24 12:36:04,674 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,720 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-24 12:36:04,722 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:04,990 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-24 12:36:04,990 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:05,409 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-24 12:36:05,410 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:05,416 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:36:05,417 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:05,666 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-24 12:36:05,666 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,555 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-02-24 12:36:06,555 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,639 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:36:06,639 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,661 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2024-02-24 12:36:06,662 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,663 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+2024-02-24 12:36:06,663 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,663 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@67cd193d]]
+2024-02-24 12:36:06,663 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,664 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+2024-02-24 12:36:06,664 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:06,681 [main] INFO  c.e.t.TestActuatorApplication - Started TestActuatorApplication in 5.171 seconds (process running for 6.173)
+2024-02-24 12:36:06,681 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:10,231 [http-nio-9090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 12:36:10,232 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:10,232 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 12:36:10,232 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:10,234 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-24 12:36:10,234 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:27,722 [http-nio-9090-exec-1] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:36:27,723 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:27,723 [http-nio-9090-exec-1] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:36:27,723 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:36:27,723 [http-nio-9090-exec-1] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:36:27,723 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:37:06,619 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-24 12:37:06,619 [MessageBroker-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,776 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+2024-02-24 12:38:47,776 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,777 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@67cd193d]]
+2024-02-24 12:38:47,777 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,777 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+2024-02-24 12:38:47,777 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,795 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:38:47,796 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-24 12:38:47,798 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:47,804 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-24 12:38:47,804 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:53,611 [main] INFO  c.e.t.TestActuatorApplication - Starting TestActuatorApplication using Java 17.0.5 with PID 25448 (C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator\target\classes started by rahmani in C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator)
+2024-02-24 12:38:53,613 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:53,615 [main] INFO  c.e.t.TestActuatorApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-24 12:38:53,615 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:54,766 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-24 12:38:54,766 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:54,792 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2024-02-24 12:38:54,792 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,669 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2024-02-24 12:38:55,669 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,679 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:38:55,679 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,682 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 12:38:55,682 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,682 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-24 12:38:55,682 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,758 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 12:38:55,758 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:55,759 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2059 ms
+2024-02-24 12:38:55,759 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,118 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-24 12:38:56,120 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,390 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:52db2500-3a76-47b3-bfb5-2c8d23749bec user=SA
+2024-02-24 12:38:56,390 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,392 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-24 12:38:56,392 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,456 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-24 12:38:56,456 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,532 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-02-24 12:38:56,532 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,580 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-24 12:38:56,580 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:56,856 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-24 12:38:56,857 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:57,328 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-24 12:38:57,329 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:57,338 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:38:57,338 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:57,654 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-24 12:38:57,654 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,634 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-02-24 12:38:58,634 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,718 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:38:58,718 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,737 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2024-02-24 12:38:58,737 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,739 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+2024-02-24 12:38:58,739 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,739 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@f09c282]]
+2024-02-24 12:38:58,739 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,740 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+2024-02-24 12:38:58,740 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:38:58,755 [main] INFO  c.e.t.TestActuatorApplication - Started TestActuatorApplication in 5.716 seconds (process running for 6.722)
+2024-02-24 12:38:58,755 [main] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:14,203 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 12:39:14,203 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:14,203 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 12:39:14,204 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:14,206 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-24 12:39:14,206 [http-nio-9090-exec-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:24,012 [http-nio-9090-exec-6] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:39:24,012 [http-nio-9090-exec-6] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:24,012 [http-nio-9090-exec-6] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:39:24,012 [http-nio-9090-exec-6] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:24,013 [http-nio-9090-exec-6] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:39:24,013 [http-nio-9090-exec-6] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:36,796 [http-nio-9090-exec-3] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:39:36,797 [http-nio-9090-exec-3] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:36,797 [http-nio-9090-exec-3] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:39:36,797 [http-nio-9090-exec-3] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:36,797 [http-nio-9090-exec-3] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:39:36,797 [http-nio-9090-exec-3] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:39:41,559 [http-nio-9090-exec-2] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:39:58,699 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-24 12:39:58,700 [MessageBroker-1] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,463 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+2024-02-24 12:42:44,464 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,464 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@f09c282]]
+2024-02-24 12:42:44,464 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,464 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+2024-02-24 12:42:44,464 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,494 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:42:44,494 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,497 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-24 12:42:44,497 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:44,500 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-02-24 12:42:44,500 [SpringApplicationShutdownHook] WARN  c.e.t.config.WebSocketLogAppender - SimpMessagingTemplate is null. Cannot send log message.
+2024-02-24 12:42:48,176 [main] INFO  c.e.t.TestActuatorApplication - Starting TestActuatorApplication using Java 17.0.5 with PID 22752 (C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator\target\classes started by rahmani in C:\Users\rahmani\Desktop\mes docs\Projects\test_actuator)
+2024-02-24 12:42:48,178 [main] INFO  c.e.t.TestActuatorApplication - No active profile set, falling back to 1 default profile: "default"
+2024-02-24 12:42:49,402 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-24 12:42:49,429 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-02-24 12:42:50,182 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2024-02-24 12:42:50,192 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:42:50,194 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 12:42:50,194 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-24 12:42:50,258 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 12:42:50,259 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2013 ms
+2024-02-24 12:42:50,567 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-02-24 12:42:50,798 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6a81af11-8085-43d5-aa18-fd5014bb1164 user=SA
+2024-02-24 12:42:50,801 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-02-24 12:42:50,860 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-24 12:42:50,920 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-02-24 12:42:50,962 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-02-24 12:42:51,210 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-24 12:42:51,677 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-24 12:42:51,682 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:42:51,942 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-24 12:42:52,762 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-02-24 12:42:52,844 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2024-02-24 12:42:52,863 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path ''
+2024-02-24 12:42:52,865 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Starting...
+2024-02-24 12:42:52,866 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@be9bf2e]]
+2024-02-24 12:42:52,866 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Started.
+2024-02-24 12:42:52,884 [main] INFO  c.e.t.TestActuatorApplication - Started TestActuatorApplication in 5.218 seconds (process running for 6.404)
+2024-02-24 12:43:52,828 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-24 12:44:08,057 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 12:44:08,057 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 12:44:08,062 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-02-24 12:44:12,129 [http-nio-9090-exec-8] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:44:12,130 [http-nio-9090-exec-8] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:44:12,130 [http-nio-9090-exec-8] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:44:15,375 [http-nio-9090-exec-4] INFO  c.e.t.web.testCControler - test log
+2024-02-24 12:44:15,375 [http-nio-9090-exec-4] WARN  c.e.t.web.testCControler - test log
+2024-02-24 12:44:15,375 [http-nio-9090-exec-4] ERROR c.e.t.web.testCControler - test log
+2024-02-24 12:46:12,326 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopping...
+2024-02-24 12:46:12,327 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@be9bf2e]]
+2024-02-24 12:46:12,327 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler - Stopped.
+2024-02-24 12:46:12,359 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24 12:46:12,364 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-02-24 12:46:12,369 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
