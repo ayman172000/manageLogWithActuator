@@ -1,69 +1,46 @@
-import { Directive, ElementRef, HostListener } from '@angular/core';
+// draggable-window.component.ts
+import { Component } from '@angular/core';
 
-@Directive({
-  selector: '[appDraggable]'
-})
-export class DraggableDirective {
-  private isDragging = false;
-  private startX = 0;
-  private startY = 0;
-  private initialX = 0;
-  private initialY = 0;
-
-  constructor(private el: ElementRef) {
-    this.el.nativeElement.style.position = 'absolute';
-  }
-
-  @HostListener('mousedown', ['$event'])
-  onMouseDown(event: MouseEvent): void {
-    this.isDragging = true;
-    this.startX = event.clientX - this.el.nativeElement.offsetLeft;
-    this.startY = event.clientY - this.el.nativeElement.offsetTop;
-    document.addEventListener('mousemove', this.onMouseMove);
-    document.addEventListener('mouseup', this.onMouseUp);
-  }
-
-  @HostListener('document:mouseup')
-  onMouseUp(): void {
-    this.isDragging = false;
-    document.removeEventListener('mousemove', this.onMouseMove);
-    document.removeEventListener('mouseup', this.onMouseUp);
-  }
-
-  onMouseMove = (event: MouseEvent): void => {
-    if (this.isDragging) {
-      this.initialX = event.clientX - this.startX;
-      this.initialY = event.clientY - this.startY;
-      this.el.nativeElement.style.left = `${this.initialX}px`;
-      this.el.nativeElement.style.top = `${this.initialY}px`;
+@Component({
+  selector: 'app-draggable-window',
+  template: `
+    <div class="draggable-window">
+      <p>Draggable Window Content</p>
+    </div>
+  `,
+  styles: [`
+    .draggable-window {
+      width: 100%;
+      height: 100%;
+      cursor: move;
     }
-  };
+  `]
+})
+export class DraggableWindowComponent { }
+
+
+
+
+
+
+// app.component.ts
+import { Component } from '@angular/core';
+import { NbWindowService } from '@nebular/theme';
+import { DraggableWindowComponent } from './draggable-window/draggable-window.component';
+
+@Component({
+  selector: 'app-root',
+  template: `<button (click)="openWindow()">Open Draggable Window</button>`,
+})
+export class AppComponent {
+  constructor(private windowService: NbWindowService) {}
+
+  openWindow() {
+    this.windowService.open(DraggableWindowComponent, { title: 'Draggable Window' });
+  }
 }
 
 
 
 
 
-
-
-
-<nb-window>
-  <div appDraggable class="window-header">
-    Draggable Window Header
-  </div>
-  <div class="window-content">
-    <!-- Your window content goes here -->
-  </div>
-</nb-window>
-
-
-
-
-.window-header {
-  cursor: move;
-  /* Other styles for your window header */
-}
-
-.window-content {
-  /* Styles for your window content */
-}
