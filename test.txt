@@ -1,4 +1,4 @@
-// draggable-window.component.ts
+i// draggable-window.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -40,6 +40,38 @@ export class AppComponent {
   }
 }
 
+
+
+
+
+
+import { Component, OnInit, ViewChild, ViewContainerRef, Renderer2, ComponentFactoryResolver } from '@angular/core';
+import { MyDirectiveDirective } from './my-directive.directive';
+
+@Component({
+  selector: 'app-root',
+  template: `<div #directiveContainer>Hover over me to see the directive in action!</div>`,
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent implements OnInit {
+  @ViewChild('directiveContainer', { read: ViewContainerRef, static: true }) container!: ViewContainerRef;
+
+  constructor(
+    private renderer: Renderer2,
+    private resolver: ComponentFactoryResolver
+  ) {}
+
+  ngOnInit() {
+    // Create a component reference to the directive
+    const directiveFactory = this.resolver.resolveComponentFactory(MyDirectiveDirective);
+
+    // Attach the directive to the container
+    const directiveRef = this.container.createComponent(directiveFactory);
+
+    // Apply the directive to the native element
+    this.renderer.appendChild(this.container.element.nativeElement, directiveRef.location.nativeElement);
+  }
+}
 
 
 
